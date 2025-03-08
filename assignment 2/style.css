@@ -1,0 +1,443 @@
+
+/*css for body*/
+body{
+    font-family: Source Serif Pro;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: stretch;
+    height: 80vh;
+    background-color: #ffffff;
+    background: #fff;
+    margin: 0 0 30px;
+    align-content: space-between;
+    overflow-x: hidden;
+}
+
+main{
+    height: 80%;
+}
+/*css for header*/
+header{
+    background: #fff;
+    color: rgb(13, 117, 119, 100);
+    padding: 0px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.logo{
+    font-size: 40px;
+    font-weight: bold;
+}
+img {
+    width: 30px;
+}
+/*css for navigation bar and links*/
+nav{
+    background: rgb(13, 117, 119, 100);
+    padding: 15px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+nav a{
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+}
+/* css for main*/
+.m-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80vh;
+    flex-direction: row;
+    padding: 0 10px;
+}
+.text-content {
+    max-width: 100%;
+    text-align: center;
+    height: auto;
+}
+.text-content h1 {
+    font-size: 60px;
+    margin: 0;
+    align-items: center;
+}
+.text-content p {
+    font-size: 20px;
+    margin: 0;
+    align-items: center;
+}
+.login-bttn {
+    background-color:rgb(13, 117, 119, 100);
+    border: none;
+    padding: 15px 90px;
+    font-size: 25px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.login-bttn a{
+    color: #fff;
+    text-decoration: none;
+}
+.image-content img{
+    width: 500px;
+    height: auto;
+    margin: 0 0 40px 0;
+}
+
+/*css for footer*/
+footer{
+    background: rgb(13, 117, 119, 100);
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+footer a{
+    color: #fff;
+    text-decoration: none;
+    margin: 0 2px;
+    font-size: 18px;
+}
+img{
+    width: 25px;
+    margin: 0 2px;
+    margin-top: 10px;
+}
+/* css for terms */
+.t-container {
+    margin: 10px auto;
+    padding: 5px;
+}
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+p {
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: left;
+}
+/*css for privacy*/
+.p-container {
+    margin: 10px auto;
+    padding: 5px;
+}
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+p {
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: left;
+}
+ul{
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: left;
+}
+.uli{
+    color: black
+}
+/*css for about*/
+.a-container {
+    margin: 10px auto;
+    padding: 5px;
+}
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+.para {
+    margin-top: 100px;
+    text-align: center;
+    margin-left: -40px;
+}
+
+.team-container {
+    display: flex;
+    gap: 50px;
+    text-align: center;
+}
+
+/* Team member styling */
+.team-member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Image frame styling */
+.image-frame {
+    width: 150px;
+    height: 290px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+/* Image styling */
+.image-frame img {
+    width: 120px;
+    height: auto;
+}
+
+/* Text styling */
+p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/*css for contact*/
+.c-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.form-container {
+    max-width: 400px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+p {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.input-group {
+    display: flex;
+    gap: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 2px solid #0d7577;
+    border-radius: 20px;
+    outline: none;
+}
+
+textarea {
+    height: 80px;
+    resize: none;
+}
+
+.submit-btn {
+    background-color: rgb(13, 117, 119, 100);
+    color: white;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+.illustration{
+    width: 500px;
+}
+/*css for login*/
+.l-container {
+    display: flex;
+    width: 80%;
+    background: white;
+    overflow: hidden;
+    background: linear-gradient(to bottom,white,#8bbfc0, #0d7577);
+}
+.image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.image-container img {
+    width: 500px;
+}
+.login-container {
+    flex: 1;
+    padding: 40px;
+    text-align: left;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.icon {
+    margin-right: 10px;
+}
+.remember-me {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 5px;
+    font-weight: normal;
+}
+.remember-me input {
+    margin-right: 5px;
+}
+
+.btttn {
+    padding: 10px 40px;
+    margin-top: 15px;
+    background: #0d7577;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+}
+#home {
+    height: 25px;
+    width: 30px;
+}
+
+.create-account {
+    display: block;
+    margin-top: 15px;
+    color: black;
+}
+.social-text {
+    text-align: right;
+    font-size: 20px;
+    color: black;
+}
+
+.icons {
+    display: flex;
+    justify-content: right;
+    gap: 5px;
+}
+
+.icons img {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+/* css for AI Recipe*/
+.ai-container{
+    display: flex;
+    width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.left-section {
+    width: 30%;
+    padding: 20px;
+    margin-right: 30px;
+}
+.left-section img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.right-section {
+    width: 70%;
+    padding: 20px;
+}
+.parss{
+    text-align: center;
+}
+.input-area label {
+    display: block;
+    margin-bottom: 5px;
+    color:black;
+}
+#ingredients{
+    width: 60%;
+}
+#Serving_size{
+    width: 60%;
+}
+#dietary_preference{
+    width: 60%;
+}
+.btnn{
+    background-color: rgb(13, 117, 119, 100);
+    padding: 15px 40px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 20px;
+}
+.btnn a{
+    color: #fff;
+    text-decoration: none;
+}
+.bo{
+    text-align: center;
+}
+
+/* css for recipe ingridants*/
+.re-container{
+    display: flex;
+    width: 960px;
+    justify-content: center;
+    margin: 0px 20px;
+    margin: 0px 20px;
+    padding: 0px 261px
+}
+.left-column, .right-column {
+    flex: 20;
+}
+.heading{
+    color: black;
+    text-align: left;
+}
+.heading2 {
+    color: black;
+    text-align: left;
+}
+
+ul, ol {
+    padding-left: 30px;
+    font-size: 20px;
+    color: #0d7577;
+}
+
+.bttnnn {
+    background-color:rgb(13, 117, 119, 100) ;
+    padding: 15px 30px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-size: medium;
+}
+.bttnnn a{
+    color: #fff;
+    text-decoration: none;
+}
